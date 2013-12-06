@@ -8,6 +8,7 @@ font-family:Ruda, Arial, sans-serif;
 
 a {
 color:#FFF;
+padding-left: 500px;
 }
 
 p {
@@ -25,17 +26,17 @@ transform:rotate(7deg);
 }
 
 .content-box {
-height:50%;
-padding-left:15
+height: 1050px;
+padding-left:15%;
 padding-right:15%;
 margin:0;
 margin-bottom:0%;
-
+background-image: url(../img/jessieoliver.jpg);
+background-repeat: no-repeat;
 }
 
 .a{
-	background-image: url(../img/back1.jpg);
-background-size:100%;
+background-color: rgba(255,255,255, .5);
 }
 
 .b{
@@ -43,7 +44,7 @@ background-size:100%;
 background-size:100%;
 }
 
-.kevin{
+.jessie{
 	font-size:80px;
 	color:#FFF;
 }
