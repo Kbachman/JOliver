@@ -28,6 +28,10 @@ transform:rotate(7deg);
 -webkit-transform:rotate(7deg)
 }
 
+.name {
+	background-image: url(../img/notebook.jpg);
+}
+
 .content-box {
 	height: 1050px;
 	padding-left:15%;
@@ -150,7 +154,6 @@ height:100%;
 }
 
 nav ul {
-background-color:#000;
 height:7%;
 color:#FFF;
 font-size:100%;
@@ -177,10 +180,10 @@ text-decoration:none;
 }
 
 nav a:hover {
-background-color:#000;
+font-size: 115%;
 }
 
-h2,.both {
+h2,.name {
 text-align:center;
 }
 
