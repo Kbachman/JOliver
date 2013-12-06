@@ -5,7 +5,7 @@
 @import url(http://fonts.googleapis.com/css?family=Bad+Script);
 
 body {
-background-color:#000;
+background-image: url(../img/notebook.jpg);
 font-family:Ruda, Arial, sans-serif;
 }
 
@@ -28,10 +28,6 @@ transform:rotate(7deg);
 -webkit-transform:rotate(7deg)
 }
 
-.name {
-	background-image: url(../img/notebook.jpg);
-}
-
 .content-box {
 	padding-left:15%;
 	padding-right:5%;
@@ -46,8 +42,8 @@ transform:rotate(7deg);
 }
 .bio-content {
 	background-size: cover;
-	margin-left: 35px;
-	margin-right: 35px;
+	margin-left: 0px;
+	margin-right: 0px;
 	padding-left: 0px;
 	background-image: url(../img/jessie2.jpg);
 	background-repeat: no-repeat;
