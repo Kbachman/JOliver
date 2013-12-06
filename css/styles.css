@@ -2,6 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Ruda);
 @import url(http://fonts.googleapis.com/css?family=Rouge+Script);
 @import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700);
+@import url(http://fonts.googleapis.com/css?family=Bad+Script);
 
 body {
 background-color:#000;
@@ -20,7 +21,9 @@ color:#000;
 .blackbox {
 background-color:#000;
 }
-
+.bio-content {
+	background-size: cover;
+}
 .spin {
 transform:rotate(7deg);
 -ms-transform:rotate(7deg); /* IE 9 */
@@ -28,21 +31,24 @@ transform:rotate(7deg);
 }
 
 .content-box {
-height: 1050px;
-padding-left:20%;
-padding-right:10%;
-margin:0;
-margin-bottom:0%;
-background-image: url(../img/jessieoliver.jpg);
-background-repeat: no-repeat;
+	height: 1050px;
+	padding-left:15%;
+	padding-right:5%;
+	margin-bottom:0%;
+	background-image: url(../img/jessie2.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .bio-container{
-background-color: rgba(255,255,255, .5);
+	background-color: rgba(255,255,255, .5);
+	float: left;
 }
 
 .bio-container p {
+	padding-top: 60px;
 	font-size: 150%;
+	text-align: center;
 	font-family: 'Droid Serif', serif;
 }
 
@@ -95,10 +101,6 @@ margin-bottom:0%;
 
 }
 
-.kevin {
-margin-left:33%;
-width:40%;
-}
 
 .footer {
 text-align:center;
