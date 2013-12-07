@@ -11,7 +11,7 @@ font-family:Ruda, Arial, sans-serif;
 
 a {
 color:#FFF;
-padding-left: 500px;
+
 }
 
 p {
@@ -42,9 +42,9 @@ transform:rotate(7deg);
 }
 .bio-content {
 	background-size: cover;
-	margin-left: 0px;
-	margin-right: 0px;
-	padding-left: 0px;
+	margin-left: .5%;
+	margin-right: .5%;
+	margin-bottom: .5%;
 	background-image: url(../img/jessie2.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -52,11 +52,7 @@ transform:rotate(7deg);
 	border-radius: 15px;
 }
 
-.bio-container{
-	background-color: rgba(255,255,255, .5);
-	margin-left: 0;
-	border-radius: 15px;
-}
+
 
 .bio-container p {
 	padding-top: 60px;
