@@ -22,6 +22,16 @@ color:#000;
 background-color:#000;
 }
 
+.social:hover li { opacity:0.2; }
+ 
+.social li { transition-property: opacity; transition-duration: 500ms; }
+.social li a strong { opacity:0;
+ transition-property: opacity, top; transition-duration: 300ms;
+}
+ 
+.social li:hover { opacity:1; }
+.social li:hover a strong { opacity:1; top:-10px; }
+
 .spin {
 transform:rotate(7deg);
 -ms-transform:rotate(7deg); /* IE 9 */
