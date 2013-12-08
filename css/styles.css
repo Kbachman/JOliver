@@ -48,8 +48,8 @@ transform:rotate(7deg);
 }
 
 .content-box {
-	padding-left:15%;
-	padding-right:5%;
+	padding-left:0%;
+	padding-right:25%;
 	margin-bottom:0%;
 
 }
@@ -71,7 +71,11 @@ transform:rotate(7deg);
 	border-radius: 15px;
 }
 
-
+.bio-container {
+	background-color: rgba(255,255,255, .5);
+	margin-left: 0;
+	border-radius: 15px;
+}
 
 .bio-container p {
 	padding-top: 60px;
