@@ -4,6 +4,8 @@
       <title>My Videos - Jessie Oliver</title>
       <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
       <link rel="stylesheet" type="css" href="css/styles.css">
+      <link href="js/jquery.socialist.css" rel="stylesheet" />
+      <link href="js/ytv.css" rel="stylesheet" />
    </head>
 
    <body>
@@ -50,15 +52,34 @@
 
 
       <div class="you">
-         <iframe id="ytplayer" type="text/html" width="560" height="315"
-         src="https://www.youtube.com/embed/?listType=user_uploads&list=oliverjessie1&enablejsapi=1&fs=1&modestbranding=1&iv_load_policy=3&theme=light" frameborder="0" allowfullscreen></iframe>
-         <br>
-         <br>
-         <iframe id="plist" scrolling="no" marginheight="0" frameborder="0" width="480" src="http://ytchannelembed.com/gallery.php?vids=9&amp;user=oliverjessie1&amp;row=3&amp;hd=1&amp;margin_left=0&amp;desc=100&amp;desc_color=00000E&amp;title=30&amp;title_color=000000&amp;views=1&amp;likes=1&amp;dislikes=1&amp;fav=1&amp;playlist=" style="height: 818px;"></iframe>   
+         <div id="frame"></div>
+         <div id="plist"></div>
       </div>
+
+      
 
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
       <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+      <script src="js/jquery.socialist.js"></script>
+      <script src="js/ytv.js"></script>
+      <script>
+
+
+      $(document).ready(function () {
+         $('#frame').ytv({
+               user: 'oliverjessie1',
+               accent: '#008D54'
+         });
+          $('#plist').socialist({
+              networks: [
+                  {name:'youtube',id:'oliverjessie1'}
+                 ],
+              isotope:false,
+              random:false,
+              theme:'clean'
+          });
+      });
+      </script>
    </body>
    </div>
 </html>

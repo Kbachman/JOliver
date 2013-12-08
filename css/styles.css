@@ -257,7 +257,9 @@ font-size:larger;
 }
 
 
-
+#plist {
+	display: none;
+}
 
 
 
@@ -337,15 +339,14 @@ figure img {
 
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 520px) {
 
-	#ytplayer {
-		width: 240px;
-		height: 135px;
+	#frame {
+		display: none;
 	}
 
 	#plist {
-	display: none;
-}
+		display: inline;
+	}
 
 }
