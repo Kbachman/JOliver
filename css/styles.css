@@ -47,7 +47,7 @@ transform:rotate(7deg);
 .content-box {
 	padding-left:0%;
 	padding-right:25%;
-	margin-bottom:0%;
+	margin-bottom:0%;;
 
 }
 .container {
@@ -66,6 +66,7 @@ transform:rotate(7deg);
 	background-position: center;
 	height: 1050px;
 	border-radius: 15px;
+	background-color: none;
 }
 
 .bio-container {
