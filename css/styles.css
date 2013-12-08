@@ -104,6 +104,14 @@ background-size:100%;
 	font-family: 'Rouge Script', cursive;
 }
 
+.jessie:hover{
+	color: yellow;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
 .c{
 	background-image: url(../img/back3.jpg);
 background-size:100%;
@@ -205,10 +213,6 @@ nav a:link,nav a:visited {
 text-decoration:none;
 }
 
-nav a:hover {
-font-size: 115%;
-}
-
 h2,.name {
 text-align:center;
 }
@@ -251,10 +255,6 @@ font-size:larger;
 	padding-right: 5px;
 	padding-left: 5px;
 }
-
-
-
-
 
 
 
@@ -312,4 +312,40 @@ figure img {
         width: 200px;
         border: 10px solid #EEE;
         border-radius: 2px;
+}
+
+@media screen and (max-width: 1061px) {
+
+	.bio-container {
+		font-size: 75%;
+
+	}
+
+	.content-box {
+		padding-right:0;
+	}
+
+	.bio-container p {
+		padding-top: 1em;
+	}
+
+	.you {
+		margin-right: 0;
+		margin-left: 0;
+		padding: 0;
+	}
+
+}
+
+@media screen and (max-width: 620px) {
+
+	#ytplayer {
+		width: 240px;
+		height: 135px;
+	}
+
+	#plist {
+	display: none;
+}
+
 }
