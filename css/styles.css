@@ -24,13 +24,22 @@ background-color:#000;
 
 .social:hover li { opacity:0.2; }
  
-.social li { transition-property: opacity; transition-duration: 500ms; }
+.social li { -webkit-transition-property: opacity; -webkit-transition-duration: 500ms;
+ -moz-transition-property: opacity; -moz-transition-duration: 500ms; }
 .social li a strong { opacity:0;
- transition-property: opacity, top; transition-duration: 300ms;
+ -webkit-transition-property: opacity, top; -webkit-transition-duration: 300ms;
+ -moz-transition-property: opacity, top; -moz-transition-duration: 300ms; }
 }
  
 .social li:hover { opacity:1; }
 .social li:hover a strong { opacity:1; top:-10px; }
+
+li.youtube { background-image:url("../images/flickr.png"); }
+li.facebook { background-image:url("../images/facebook.png"); }
+li.twitter { background-image:url("../images/twitter.png"); }
+li.instagram { background-image:url("../images/instagram.png"); }
+li.soundcloud { background-image:url("../images/soundcloud.png"); }
+
 
 .spin {
 transform:rotate(7deg);
