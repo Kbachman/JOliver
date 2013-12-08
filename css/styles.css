@@ -9,10 +9,7 @@ background-image: url(../img/notebook.jpg);
 font-family:Ruda, Arial, sans-serif;
 }
 
-a {
-color:#FFF;
 
-}
 
 p {
 color:#000;
@@ -112,11 +109,11 @@ max-width: 100%;
 max-width:100%;}
 
 .message {
-text-align:center;
-font-weight:700;
-min-height:100%;
-bottom:0;
-margin-bottom:0%;
+	text-align:center;
+	font-weight:700;
+	min-height:100%;
+	bottom:0;
+	margin-bottom:0%;
 }
 .menu-content-box {
 height:50%;
@@ -236,4 +233,11 @@ font-size:larger;
 	-o-transform: scale(1.5) rotate(360deg);
 	-ms-transform: scale(1.5) rotate(360deg);
 	transform: scale(1.5) rotate(360deg);
+}
+
+.music-content {
+	margin-left: auto;
+	margin-right: auto;
+	padding-right: 5px;
+	padding-left: 5px;
 }
