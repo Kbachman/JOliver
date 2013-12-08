@@ -67,9 +67,9 @@ transform:rotate(7deg);
 }
 .bio-content {
 	background-size: cover;
-	margin-left: .5%;
-	margin-right: .5%;
-	margin-bottom: .5%;
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-bottom: 1em;
 	background-image: url(../img/jessie2.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -272,6 +272,7 @@ font-size:larger;
 	border-radius: 30px;
 	padding: 10%;
 	text-align:center;
+	margin-bottom: 1em;
 
 
 }
