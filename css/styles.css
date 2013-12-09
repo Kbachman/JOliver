@@ -65,6 +65,9 @@ transform:rotate(7deg);
 	margin-bottom:0;
 
 }
+
+
+
 .bio-content {
 	background-size: cover;
 	margin-left: 1em;
@@ -262,37 +265,7 @@ font-size:larger;
 #plist {
 	display: none;
 }
-<<<<<<< HEAD
-=======
 
-.overlay {
-	background-color: black;
-	height: 100%;
-	background-size: cover;
-	background-image: url(../img/jessie3.jpg);
-	background-repeat: no-repeat;
-}
-.overlay h2 {
-	font-size:100px;
-	color:#FFF;
-	font-family: 'Rouge Script', cursive;
-}
-
-.overlay h4 {
-	padding-top: 10px;
-	text-align: center;
-	color: white;
-	font-style: bold;
-	text-shadow:0 1px 1px;
-}
-.row3 {
-	float: bottom;
-}
-.row3 img {
-	margin-left: auto;
-	margin-right: auto;
-}
->>>>>>> 9ba06b09030d9a6779aea64149a7e91f53c5f074
 
 .overlay {
 	background-color: black;
@@ -322,17 +295,7 @@ font-size:larger;
 	margin-right: auto;
 }
 
-/* Carousel base class */
-.carousel {
-  margin-bottom: 60px;
-}
 
-.carousel .container {
-  position: relative;
-  z-index: 9;
-}
-
-<<<<<<< HEAD
 /* Carousel base class */
 .carousel {
   margin-bottom: 60px;
@@ -363,7 +326,7 @@ font-size:larger;
   height: 500px;
 }
 
-=======
+
 .carousel-control {
   margin-top: 0;
   font-size: 120px;
@@ -384,7 +347,7 @@ font-size:larger;
   height: 500px;
 }
 
->>>>>>> 9ba06b09030d9a6779aea64149a7e91f53c5f074
+
 .carousel-caption {
 background-color: rgba(50,50,50, .5);
   position: static;
@@ -404,7 +367,7 @@ background-color: rgba(50,50,50, .5);
 }
 
 
-/*Classes added by Troy*/
+
 
 .you {
 
@@ -460,12 +423,7 @@ figure img {
         border-radius: 2px;
 }
 
-<<<<<<< HEAD
 
-
-
-=======
->>>>>>> 9ba06b09030d9a6779aea64149a7e91f53c5f074
 @media screen and (max-width: 1061px) {
 
 	.bio-container {
