@@ -72,7 +72,6 @@ transform:rotate(7deg);
 }
 
 .marginize {
-	//margin-bottom: 1em;
 	height: 1209px !important;
 	transition: 3s all;
 }
@@ -446,10 +445,19 @@ figure img {
 		padding-top: 1em;
 	}
 
+	.marginize {
+	height: 1245px !important;
+	transition: 1s all;
+	}
+
 	.you {
 		margin-right: 1em;
 		margin-left: 1em;
 		padding: 1.5em;
+	}
+
+	#continuebut {
+	margin-top: 100px;
 	}
 
 }
@@ -464,4 +472,17 @@ figure img {
 		display: inline;
 	}
 
+	.marginize {
+	height: 1930px !important;
+	transition: 1s all;
+	}
+
+	.bio-content {
+		background: none;
+	}
+
+	#continuebut {
+	margin-top: 0px;
+	margin-left: 50px;
+	}
 }
