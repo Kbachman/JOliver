@@ -142,7 +142,9 @@
 
       $(document).ready(function () {
           var x = $(window).height();
-          $('.et-wrapper'). css("height", x); 
+          if (x > 720) {
+            $('.et-wrapper'). css("height", x); 
+          }
       });
 
     </script>
