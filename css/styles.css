@@ -76,6 +76,7 @@ transform:rotate(7deg);
 	height: 1050px;
 	border-radius: 15px;
 	background-color: none;
+	transition: all 1s;
 }
 
 .bio-container {
@@ -106,6 +107,7 @@ background-size:100%;
 
 .jessie:hover{
 	color: yellow;
+	transition: all 5s;
 }
 
 a:hover {
@@ -275,6 +277,7 @@ font-size:larger;
 	padding: 2%;
 	text-align:center;
 	margin-bottom: 1em;
+	transition: all 1s;
 
 
 }
