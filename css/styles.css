@@ -332,9 +332,9 @@ figure img {
 	}
 
 	.you {
-		margin-right: 0;
-		margin-left: 0;
-		padding: 0;
+		margin-right: 1em;
+		margin-left: 1em;
+		padding: 1.5em;
 	}
 
 }
