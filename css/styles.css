@@ -263,6 +263,83 @@ font-size:larger;
 	display: none;
 }
 
+.overlay {
+	background-color: black;
+	height: 100%;
+	background-size: cover;
+	background-image: url(../img/jessie3.jpg);
+	background-repeat: no-repeat;
+}
+.overlay h2 {
+	font-size:100px;
+	color:#FFF;
+	font-family: 'Rouge Script', cursive;
+}
+
+.overlay h4 {
+	padding-top: 10px;
+	text-align: center;
+	color: white;
+	font-style: bold;
+	text-shadow:0 1px 1px;
+}
+.row3 {
+	float: bottom;
+}
+.row3 img {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 60px;
+}
+
+.carousel .container {
+  position: relative;
+  z-index: 9;
+}
+
+.carousel-control {
+  margin-top: 0;
+  font-size: 120px;
+  text-shadow: 0 1px 1px rgba(0,0,0,.4);
+  background-color: transparent;
+  border: 0;
+  z-index: 10;
+}
+
+.carousel .item {
+  height: 500px;
+}
+.carousel img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+.carousel-caption {
+background-color: rgba(50,50,50, .5);
+  position: static;
+  max-width: 550px;
+  padding: 0 20px;
+  margin-top: 200px;
+}
+.carousel-caption h1,
+.carousel-caption .lead {
+  margin: 0;
+  line-height: 1.25;
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(0,0,0,.4);
+}
+.carousel-caption .btn {
+  margin-top: 10px;
+}
 
 
 /*Classes added by Troy*/
