@@ -134,8 +134,17 @@
 
     <script>
       $('#continuebut').click(function(){
-        $('.et-wrapper').addClass('marginize');
+        var x = $(window).height();
+        if (x < 1193)
+          $('.et-wrapper').addClass('marginize');
       });
+
+
+      $(document).ready(function () {
+          var x = $(window).height();
+          $('.et-wrapper'). css("height", x); 
+      });
+
     </script>
 
    </body>
