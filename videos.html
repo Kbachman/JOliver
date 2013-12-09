@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>My Videos - Jessie Oliver</title>
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+      <link rel="stylesheet" type="css" href="css/styles.css">
+      <link href="js/jquery.socialist.css" rel="stylesheet" />
+      <link href="js/ytv.css" rel="stylesheet" />
+   </head>
+
+   <body>
+      <div class="container">
+         <a href="index.html" class="colored"> <h2 class="jessie">Jessie Oliver</h2></a>
+         <div class="row">
+            <div class="col-md-4">         
+            </div>
+            <div class="col-md-4">
+               <div class="name">         
+                  <nav>
+                     <ul>
+                        <li><a href="bio.html"> Bio </a></li>
+                        <li><a href="music.html" > Music </a></li>
+                        <li><a href="pictures.html" > Photos </a></li>
+                        <li><a href="videos.html" class="colored"> Videos </a></li>
+                     </ul>
+                  </nav>
+               </div>
+            </div>
+            <div class="col-md-4">
+               <!-- Social Media Buttons - CSS3 -->
+               <ul class="social" id="css3">
+                  <li class="youtube">
+                     <a href="http://www.youtube.com/user/oliverjessie1/videos"><strong>YouTube</strong></a>
+                  </li>
+                  <li class="facebook">
+                     <a href="https://www.facebook.com/jessica.oliver.5815"><strong>Facebook</strong></a>
+                  </li>
+                  <li class="twitter">
+                     <a href="https://twitter.com/jessieoliver09"><strong>Twitter</strong></a>
+                  </li>
+                  <li class="instagram">
+                     <a href="http://instagram.com/jessieoliver09"><strong>Instagram</strong></a>
+                  </li>
+                  <li class="soundcloud">
+                     <a href="https://soundcloud.com/jessieoliver9/"><strong>SoundCloud</strong></a>
+                  </li>
+               </ul>
+            </div>
+         </div>    
+      </div>
+
+
+
+      <div class="you">
+         <div id="frame"></div>
+         <div id="plist"></div>
+      </div>
+
+      
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+      <script src="js/jquery.socialist.js"></script>
+      <script src="js/ytv.js"></script>
+      <script>
+
+
+      $(document).ready(function () {
+         $('#frame').ytv({
+               user: 'oliverjessie1',
+               accent: '#008D54'
+         });
+          $('#plist').socialist({
+              networks: [
+                  {name:'youtube',id:'oliverjessie1'}
+                 ],
+              isotope:false,
+              random:false,
+              theme:'clean'
+          });
+      });
+      </script>
+   </body>
+   </div>
+</html>

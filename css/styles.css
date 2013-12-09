@@ -20,8 +20,8 @@ background-color:#000;
 }
 
       /* SOCIAL ICONS - GENERAL */
-.social { list-style:none; margin:30px auto; float: right;}
-.social li { display:inline; float:left; background-repeat:no-repeat; padding-left: 5px; padding-right: 5px; }
+.social { list-style:none; margin:-10px auto; padding-bottom: 15px; float: right;}
+.social li { display:inline; float: left; background-repeat:no-repeat; padding-left: 5px; padding-right: 5px; }
 .social li a { display:block; width:48px; height:48px; padding-right:10px; position:relative; text-decoration:none; }
 .social li a strong { font-weight:normal; position:absolute; left:-30px; top:-1px; color:#fff; padding:3px; z-index:9999;
  text-shadow:1px 1px 0 rgba(0, 0, 0, 0.75); background-color:rgba(0, 0, 0, 0.7);
@@ -67,15 +67,16 @@ transform:rotate(7deg);
 }
 .bio-content {
 	background-size: cover;
-	margin-left: .5%;
-	margin-right: .5%;
-	margin-bottom: .5%;
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-bottom: 1em;
 	background-image: url(../img/jessie2.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 1050px;
 	border-radius: 15px;
 	background-color: none;
+	transition: all 1s;
 }
 
 .bio-container {
@@ -102,6 +103,15 @@ background-size:100%;
 	font-size:100px;
 	color:#FFF;
 	font-family: 'Rouge Script', cursive;
+}
+
+.jessie:hover{
+	color: yellow;
+	transition: all 5s;
+}
+
+a:hover {
+	text-decoration: none;
 }
 
 .c{
@@ -205,10 +215,6 @@ nav a:link,nav a:visited {
 text-decoration:none;
 }
 
-nav a:hover {
-font-size: 115%;
-}
-
 h2,.name {
 text-align:center;
 }
@@ -253,13 +259,87 @@ font-size:larger;
 }
 
 
+#plist {
+	display: none;
+}
+
+.overlay {
+	background-color: black;
+	height: 100%;
+	background-size: cover;
+	background-image: url(../img/jessie3.jpg);
+	background-repeat: no-repeat;
+}
+.overlay h2 {
+	font-size:100px;
+	color:#FFF;
+	font-family: 'Rouge Script', cursive;
+}
+
+.overlay h4 {
+	padding-top: 10px;
+	text-align: center;
+	color: white;
+	font-style: bold;
+	text-shadow:0 1px 1px;
+}
+.row3 {
+	float: bottom;
+}
+.row3 img {
+	margin-left: auto;
+	margin-right: auto;
+}
 
 
 
+/* Carousel base class */
+.carousel {
+  margin-bottom: 60px;
+}
 
+.carousel .container {
+  position: relative;
+  z-index: 9;
+}
 
+.carousel-control {
+  margin-top: 0;
+  font-size: 120px;
+  text-shadow: 0 1px 1px rgba(0,0,0,.4);
+  background-color: transparent;
+  border: 0;
+  z-index: 10;
+}
 
+.carousel .item {
+  height: 500px;
+}
+.carousel img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
 
+.carousel-caption {
+background-color: rgba(50,50,50, .5);
+  position: static;
+  max-width: 550px;
+  padding: 0 20px;
+  margin-top: 200px;
+}
+.carousel-caption h1,
+.carousel-caption .lead {
+  margin: 0;
+  line-height: 1.25;
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(0,0,0,.4);
+}
+.carousel-caption .btn {
+  margin-top: 10px;
+}
 
 
 /*Classes added by Troy*/
@@ -271,17 +351,21 @@ font-size:larger;
 	background-image: none;
 	background: rgba(255, 255, 255, .5);
 	border-radius: 30px;
-	padding: 10%;
+	padding: 2%;
 	text-align:center;
+	margin-bottom: 1em;
+	transition: all 1s;
 
 
 }
 
 .windows {
-        width:95%;
+        width:100%;
         background-image: none;
-        margin:20px auto 20px auto;
-        margin-left:10%;
+        
+        margin-top:2%;
+        margin-bottom:3%;
+		text-align:center;
 }
 
 
@@ -300,16 +384,54 @@ figure {
 
 figure:hover {
         box-shadow: 2px 2px 6px #555;
-        -webkit-transform: scale(2.25);
-        -moz-transform: scale(2.25);
-        -o-transform: scale(2.25);
-        -ms-transform: scale(2.25);
-        transform: scale(2.25);
+        -webkit-transform: scale(1.5);
+        -moz-transform: scale(1.5);
+        -o-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        transform: scale(1.5);
 }
 
 
 figure img {
-        width: 200px;
+        width: 300px;
         border: 10px solid #EEE;
         border-radius: 2px;
+}
+
+
+
+
+@media screen and (max-width: 1061px) {
+
+	.bio-container {
+		font-size: 75%;
+
+	}
+
+	.content-box {
+		padding-right:0;
+	}
+
+	.bio-container p {
+		padding-top: 1em;
+	}
+
+	.you {
+		margin-right: 1em;
+		margin-left: 1em;
+		padding: 1.5em;
+	}
+
+}
+
+@media screen and (max-width: 520px) {
+
+	#frame {
+		display: none;
+	}
+
+	#plist {
+		display: inline;
+	}
+
 }
